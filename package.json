@@ -1,0 +1,24 @@
+{
+  "name": "deploymenttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimhardy/deploymentTest.git"
+  },
+  "author": "Jim Hardy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimhardy/deploymentTest/issues"
+  },
+  "homepage": "https://github.com/jimhardy/deploymentTest#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
