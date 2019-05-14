@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 require('dotenv').config();
 
@@ -13,7 +14,7 @@ app.get('/about' , (req , res) => {
     res.render('about');
 });
 
-app.listen(process.env.PORT , process.env.IP , () => {
+app.listen(PORT , () => {
             console.log('server started');
     }
 );
