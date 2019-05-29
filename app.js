@@ -15,6 +15,14 @@ app.get('/about' , (req , res) => {
 });
 
 app.listen(PORT , () => {
-            console.log('server started');
+            console.log('server started on Port' + PORT);
     }
 ); 
+
+// STEPS
+// 1. heroku login
+// 2. heroku create
+// 3. git add .
+// 4. git commit -m "committing changes"
+// 5. git push heroku master
+// 6. changes have been deployed
